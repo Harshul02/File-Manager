@@ -11,12 +11,12 @@ const Navbar = () => {
             <span className="mx-4 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Home</span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          {/* <Link to={'/login'}> */}
+          <Link to={'/login'}>
             <button type="button" className="mx-4 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
-            {/* </Link> */}
-            {/* <Link to={'/signup'}> */}
+            </Link>
+            <Link to={'/register'}>
             <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign Up</button>
-            {/* </Link> */}
+            </Link>
           </div>
         </div>
       </nav>
